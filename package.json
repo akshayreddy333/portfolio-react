@@ -2,6 +2,7 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://akshayreddy333.github.io/portfolio-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -10,8 +11,7 @@
     "react-dom": "^16.13.1",
     "react-mdl": "^2.1.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
-    "homepage": "http://akshayreddy333.github.io/portfolio-react"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
