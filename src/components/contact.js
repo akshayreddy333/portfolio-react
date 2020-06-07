@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import imge from "./portfolio_img.jpg";
 
 class Contact extends Component {
   state = {};
@@ -10,15 +11,16 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Akshay Reddy Akkati</h2>
             <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              // src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              src={imge}
               alt="avatar"
               style={{ height: "250px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              I have worked with various companies in domains like Financial,
-              Healthcare At present i am with American Express at Phoenix, AZ
-              from 2018 I have expreience in designing and developing the
-              entrprise scale applications.{" "}
+              Around 3 years of experience with strong emphasis on Design,
+              Development, Implementation, Testing and Deployment of Software
+              Applications following agile methodology for continuous
+              integration of development and testing.{" "}
             </p>
           </Cell>
           <Cell col={6}>
@@ -32,7 +34,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-phone-square" aria-hidden="true" />
-                    +1-999-999-9999
+                    +1-703-488-0605
                   </ListItemContent>
                 </ListItem>
 
@@ -41,7 +43,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-envelope" aria-hidden="true" />
-                    abcd@gmail.com
+                    akshay.akkati@gmail.com
                   </ListItemContent>
                 </ListItem>
 
@@ -50,7 +52,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-skype" aria-hidden="true" />
-                    Skype ID
+                    akshaymunna95
                   </ListItemContent>
                 </ListItem>
               </List>

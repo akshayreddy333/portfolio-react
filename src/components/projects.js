@@ -43,8 +43,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>Github</Button>
-              <Button colored>Codepen</Button>
-              <Button colored>LiveDemo</Button>
+              <Button colored>Documentation</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -69,8 +68,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>Github</Button>
-              <Button colored>Codepen</Button>
-              <Button colored>LiveDemo</Button>
+              <Button colored>Documentation</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -95,8 +93,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>Github</Button>
-              <Button colored>Codepen</Button>
-              <Button colored>LiveDemo</Button>
+              <Button colored>Documentation</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -107,19 +104,19 @@ class Projects extends Component {
     } else if (this.state.activeTab === 1) {
       return (
         <div>
-          <h1>This is Angular</h1>
+          <h1>This is Spring</h1>
         </div>
       );
     } else if (this.state.activeTab === 2) {
       return (
         <div>
-          <h1>This is Spring</h1>
+          <h1>This is Java</h1>
         </div>
       );
     } else if (this.state.activeTab === 3) {
       return (
         <div>
-          <h1>This is Cloud</h1>
+          <h1>This is Angular</h1>
         </div>
       );
     }

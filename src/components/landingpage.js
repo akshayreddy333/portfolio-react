@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import imge from "./portfolio_img.jpg";
 
 class Landing extends Component {
   state = {};
@@ -9,18 +10,23 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://i.ya-webdesign.com/images/avatar-png-icon-6.png"
+              //   src="https://i.ya-webdesign.com/images/avatar-png-icon-6.png"
+              src={imge}
               alt="avatar"
               className="avatar-img"
             />
             <div className="banner-text">
-              <h1>Full Stack Developer</h1>
+              <h1>Java Full Stack Developer</h1>
               <hr />
-              <p> HTML | CSS | Node.js | Spring | Cloud</p>
+              <p>
+                {" "}
+                Java | Angular | React | JavaScript | Cloud | Spring |
+                Microservices
+              </p>
               <div className="social-links">
                 {/* LinkedIn */}
                 <a
-                  href="http://google.com"
+                  href="https://www.linkedin.com/in/akshay-reddy-akkati/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -29,7 +35,7 @@ class Landing extends Component {
 
                 {/* Github */}
                 <a
-                  href="http://google.com"
+                  href="https://github.com/akshayreddy333"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -38,7 +44,7 @@ class Landing extends Component {
 
                 {/* Twitter */}
                 <a
-                  href="http://google.com"
+                  href="https://twitter.com/akshaymunna95"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
